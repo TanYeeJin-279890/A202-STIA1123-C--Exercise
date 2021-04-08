@@ -13,10 +13,10 @@ public class Main {
 		System.out.println();
 		
 		Cat AbuCat = new Cat(); // create second new object MyCat
-	    System.out.println("*******ABUCAT*******");
-	    AbuCat.printIdentityScanner();
-	    AbuCat.calcfoodweight();
-	    AbuCat.checkShots("Lina");
+	        System.out.println("*******ABUCAT*******");
+	        AbuCat.printIdentityScanner();
+	        AbuCat.calcfoodweight();
+	        AbuCat.checkShots("Lina");
 		AbuCat.Strength(34.47);
 		
 
