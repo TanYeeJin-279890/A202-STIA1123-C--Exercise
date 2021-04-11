@@ -51,7 +51,7 @@ public class Cat {
     	 }while (choice != 'y' && choice != 'n');
       }
      
-     void Strength(double B) {
+     void JumpStrength(double B) {
     	 System.out.println("\nStrength : ");
     	 
     	 System.out.println("-----To Calculate How High can a Cat Jump-----  ");
