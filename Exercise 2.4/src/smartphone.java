@@ -3,7 +3,8 @@ public class smartphone {
 	String brand;
 	String model;
 	String colour;
-	double weight,height,width,depth,price;
+        int NoOfPhone;
+	double weight,height,width,depth,price,totalprice;
 	
 	//Create Setter Method
 		public void setBrand(String brand) {
@@ -37,6 +38,11 @@ public class smartphone {
 		public void setprice(double price) {
 			this.price = price;
 		}
+	
+                public void setNoOfPhone(int phone) {
+			this.NoOfPhone = phone;
+		}
+
 		//Create Getter Method
 		public String getbrand() {
 			return this.brand;
@@ -71,6 +77,16 @@ public class smartphone {
 		public Double getPrice() {
 			return this.price;
 		}
+		
+		public Integer getNoOfPhone() {
+			return this.NoOfPhone;
+		}
+
+                public Double gettotalprice() {
+                        this.totalprice = this.NoOfPhone*this.price;
+			return this.totalprice;
+		}
+
 
 
 }
