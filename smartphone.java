@@ -82,8 +82,8 @@ public class smartphone {
 			return this.price;
 		}
 		
-		public Double totalprice(int NoOfPhone) {
-			totalprice = NoOfPhone*this.price;
+		public Double gettotalprice(int NoOfPhone) {
+			this.totalprice = NoOfPhone*this.price;
 			return this.totalprice;
 		}
 
