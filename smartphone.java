@@ -18,12 +18,12 @@ public class smartphone {
 			this.model = model;
 		}
 		
-		public void setColour(String colour) {
+		public void setColour() {
 	    	System.out.println("What is the colour of the phone you want ? ");
 	    	this.colour = scan.next();
 		}
 		
-		public void setnoofphone(int NoOfPhone) {
+		public void setnoofphone() {
 			System.out.println("Quantity purchased ? ");
 	    	this.NoOfPhone = scan.nextInt();
 		}
