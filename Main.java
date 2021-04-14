@@ -21,6 +21,7 @@ public class Main {
 		System.out.print("Dimension : Height > " + a.getheight() + " mm, ");
 		System.out.print("Width > " + a.getwidth() + " mm, ");
 		System.out.print("Depth > " + a.getDepth() + " mm\n\n");
+		System.out.print("Total price is > RM " + a.gettotalprice());
 		
 
 		
@@ -43,6 +44,7 @@ public class Main {
 		System.out.print("Dimension : Height > " + b.getheight() + " mm, ");
 		System.out.print("Width > " + b.getwidth() + " mm, ");
 		System.out.print("Depth > " + b.getDepth() + " mm");
+		System.out.print("Total price is > RM " + b.gettotalprice());
 		
 
 	}
