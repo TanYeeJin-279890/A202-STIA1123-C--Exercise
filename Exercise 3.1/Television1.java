@@ -42,19 +42,19 @@ public class Television1 {
 	
 	
 	//Create Setter Method
-    public void setprice(double price) {
+        public void setprice(double price) {
 		this.price = price;
 	}
     
-    public void setsize(int size) {
+        public void setsize(int size) {
 		this.size = size;
 	}
     
-    public void setresolution(int resolution) {
+        public void setresolution(int resolution) {
 		this.resolution = resolution;
 	}
     
-    public void setdiscount(double discount) {
+        public void setdiscount(double discount) {
 		this.discount = discount;
 	}
     
@@ -71,7 +71,7 @@ public class Television1 {
 		return this.size;
 	}
     
-    public int getresolution() {
+        public int getresolution() {
 		return this.resolution;
 	}
     
