@@ -3,9 +3,9 @@ package INHERITANCE;
 import java.util.Scanner;
 
 public class LG extends Television {
-	Scanner s = new Scanner(System.in);
+    Scanner s = new Scanner(System.in);
 	
-	private String brand;
+    private String brand;
     private double price,total,discount,length,diagonal;
     private int unit,choice;
 	
@@ -35,30 +35,30 @@ public class LG extends Television {
 		else {
 			System.out.println("Error input.(LG 4K only have diagonal with 55 inches and 65 inches)");
 		}
-    	}while(diagonal != 55 || diagonal != 65);
+    	} while(diagonal != 55 || diagonal != 65);
 		
 		
-		System.out.print("Enter unit : ");
-		this.unit = s.nextInt();
+	System.out.print("Enter unit : ");
+	this.unit = s.nextInt();
 		
 		
-		do {
-			System.out.print("Enter Membership (1-Yes,2-No) : ");
-			this.choice = s.nextInt();
+	do {
+	       System.out.print("Enter Membership (1-Yes,2-No) : ");
+	       this.choice = s.nextInt();
 			
-			if (choice == 1 ) {
-				System.out.println("Member have 20% discount");
-				this.discount = 20.0;break;
-				}
-			else if (choice == 2 ) {
-				System.out.println("No discount available.");
-				this.discount = 0.0;break;
-			}
-			else {
-				System.out.println("Wrong input. Enter only (1-Yes,2-No). ");
-				}
-			} while (choice != 1 || choice != 0);	
-		}
+	       if (choice == 1 ) {
+			System.out.println("Member have 20% discount");
+			this.discount = 20.0;break;
+	       }
+	       else if (choice == 2 ) {
+			System.out.println("No discount available.");
+			this.discount = 0.0;break;
+	       }
+	       else {
+			System.out.println("Wrong input. Enter only (1-Yes,2-No). ");
+	       }
+	} while (choice != 1 || choice != 0);	
+}
 
 	
 	public void Bluetooth() {
