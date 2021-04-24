@@ -47,11 +47,9 @@ public class LG extends Television {
 	       this.choice = s.nextInt();
 			
 	       if (choice == 1 ) {
-			System.out.println("Member have 20% discount");
 			this.discount = 20.0;break;
 	       }
 	       else if (choice == 2 ) {
-			System.out.println("No discount available.");
 			this.discount = 0.0;break;
 	       }
 	       else {
