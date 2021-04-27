@@ -14,11 +14,11 @@ public class Fruit {
 
 }
 
-class Grape extends Fruit{
+class Grape extends Fruit{//subclass of fruit - inherits state and behavior from superclass
 	Scanner scan = new Scanner(System.in);
     String colour,comment;
 	int option;
-	public Grape(String name) {//subclass
+	public Grape(String name) {
 		super(name);
 		System.out.println("Grape constructor is invoked");
 		System.out.println("Colour mostly in purple,red and green");
@@ -49,12 +49,12 @@ class Grape extends Fruit{
 }
 
 
-class Mango extends Fruit{
+class Mango extends Fruit{//subclass of fruit-inherits state and behavior from superclass
 	Scanner scan = new Scanner(System.in);
 	int choice;
 	String comment;
 	
-	public Mango(String name) {//subclass
+	public Mango(String name) {
 		super(name);
 		System.out.print("Mango constructor is invoked");
 		}
@@ -82,16 +82,16 @@ class Mango extends Fruit{
 	}
 }
 	
-class Apple extends Fruit {
+class Apple extends Fruit {//subclass of fruit
 	String colour;
-	public Apple(String name,String colour) {//subclass
+	public Apple(String name,String colour) {
 		super(name);
 		this.colour = colour;
 		System.out.println("Apple constructor is invoked");
   }
 }
 
-class RedApple extends Apple {
+class RedApple extends Apple {//subclass of apple-inherits state and behavior from superclass
 	Scanner scan = new Scanner(System.in);
 	String retailname, placeProduce,seasons;
 	double weight,price,total;
@@ -113,7 +113,7 @@ class RedApple extends Apple {
 	
 }
 
-class GreenApple extends Apple {
+class GreenApple extends Apple {//subclass of apple-inherits state and behavior from superclass
 	Scanner scan = new Scanner(System.in);
 	String retailname, placeProduce,seasons;
 	double weight,price,total;
@@ -135,7 +135,7 @@ class GreenApple extends Apple {
 	
 }
 
-class GoldApple extends RedApple{
+class GoldApple extends RedApple{//subclass of red apple-inherits state and behavior from superclass
     double total;
 	public GoldApple(String name,String colour,String n,String pp,String s,double weight,double price) {
 		super(name,colour,n,pp,s,weight,price);
