@@ -15,7 +15,6 @@ public class GreenApple extends Apple {
 		this.quantity = scan.nextInt();
 		
 		if(this.quantity <= 20) {
-			super.price = 1.54;
 			calctotal();
 			System.out.println("Total price of " + quantity +" "+ name + " : RM" + calctotal());
 		}
@@ -53,12 +52,8 @@ public class GreenApple extends Apple {
 	
 	
 	public String toString() { //overriding method-dif classes
-		return "Apple name      :" + super.name +
-			  "\n" + "Colour          :" + super.colour() +
-			  "\nRetail name     :" + this.retailname +
-		      "\nProduce in      :" + this.placeProduce +
-		      "\nSeasons Harvest :" + this.seasons +
-		      "\nAverage Weight  :" + this.weight + "g per apple";
+		return "Apple name      :" + super.name + "\n" + "Colour          :" + super.colour() + "\nRetail name     :" + this.retailname +
+		      "\nProduce in      :" + this.placeProduce + "\nSeasons Harvest :" + this.seasons + "\nAverage Weight  :" + this.weight + "g per apple";
 		
 	}
 }
