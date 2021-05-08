@@ -1,0 +1,12 @@
+
+interface getdiscount{
+	double discount();
+}
+
+
+
+    
+
+
+
+
