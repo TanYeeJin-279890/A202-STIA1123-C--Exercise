@@ -1,0 +1,12 @@
+
+interface getdiscount{
+	float  rateofdiscount();
+}
+
+
+
+    
+
+
+
+
