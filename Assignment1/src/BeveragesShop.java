@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class BeveragesShop {
+public class BeveragesShop { //superclass
 	protected String name;
 	protected String address;
 	protected double open;
 	protected double close;
 	protected String phoneNo;
 	
-	BeveragesShop(){
+	BeveragesShop(){ // constructor without argument
 		this.name = "BeveragesShop";
 		this.address = "NO50,Jln LP1,"+
 		              " Taman Limbongan Permai,"+
