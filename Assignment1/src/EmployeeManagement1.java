@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EmployeeManagement1 extends BeveragesShop{
+public class EmployeeManagement1 extends BeveragesShop{ // subclass for BeveragesShop
 	Scanner scan = new Scanner(System.in);
 	private int noOfWorkers = 10;
 	private double hourperSalary1 = 3000.00; //admin salary/month
