@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Finance extends BeveragesShop{
+public class Finance extends BeveragesShop{ // subclass for BeveragesShop
 	Scanner scan = new Scanner(System.in);
 	private double totalsales;
 	private double totalcost;
