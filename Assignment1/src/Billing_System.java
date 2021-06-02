@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Billing_System extends BeveragesShop{
+public class Billing_System extends BeveragesShop{ //subclass of BeveragesShop
 	Scanner scan = new Scanner(System.in);
 	private String customer_name;
 	private String customer_hp;
