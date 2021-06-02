@@ -1,5 +1,5 @@
 
-public class AdvertisementandMarketing extends BeveragesShop {
+public class AdvertisementandMarketing extends BeveragesShop { // subclass of BeveragesShop
 	private String titleAd;
 	private double voucher;
 	private String promotion;
