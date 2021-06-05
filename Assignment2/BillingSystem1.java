@@ -44,11 +44,11 @@ public class BillingSystem1 extends BeveragesDescription { //inheritance
         	System.out.println();
         	System.out.println("Paid by    :" + this.cusname + " (" + this.cushp + " )");
             System.out.printf("\nFinal Price : RM%.2f%n", finaltotal);
-            printtotal();
+            printinfo();
         }
         }
 	
-	public void printtotal() {//polymorphism
+	public void printinfo() {//polymorphism
 		if(this.finaltotal < 400.00) {
 			calctotalprice();//overloading with no arguments as nothing change
 			System.out.println();
