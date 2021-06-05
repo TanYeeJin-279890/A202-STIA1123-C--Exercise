@@ -13,7 +13,7 @@ public class AdvertisementandMarketing extends BeveragesShop { //inheritance
 		System.out.println(titleAd + "Cash Voucher RM " + e.payment() + " in purchasement more than RM 500.00");
 	}
 	
-	public void settitleAd(String titleAd) {
+	public void settitleAd(String titleAd) { // setter getter method (encapsulation)
 		this.titleAd = titleAd;
 	}
 	
