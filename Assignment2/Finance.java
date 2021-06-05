@@ -47,16 +47,16 @@ public class Finance extends EmployeeManagement1{ //inheritance
 		
 		this.netincome = this.profit - expenses - cost - salary;
 		if(netincome<0) {
-			System.out.printf("\nNet Income : RM %.2f" , this.netincome);
-			System.out.println();
+			System.out.printf("\nNet Income(loss) : RM %.2f" , this.netincome);
+			System.out.println("\n");
 		}
 		else if(netincome==0) {
-			System.out.printf("\nNet Income : RM %.2f" , this.netincome);
-			System.out.println();
+			System.out.printf("\nNet Income(equal) : RM %.2f" , this.netincome);
+			System.out.println("\n");
 		}
 		else{
-			System.out.printf("\nNet Income : RM %.2f" , this.netincome);
-			System.out.println();
+			System.out.printf("\nNet Income(profit) : RM %.2f" , this.netincome);
+			System.out.println("\n");
 		} 
 		
 		
