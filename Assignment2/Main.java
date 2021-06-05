@@ -9,6 +9,7 @@ public class Main {
 		AdvertisementandMarketing ad = new AdvertisementandMarketing();
 		ad.settitleAd("Get Discount 10% "); // encapsulation
 		ad.setdate("31/7/2021");// encapsulation
+		ad.printinfo();
 		
 		do {
 		System.out.println("Please Select User as : \n1-Admin \n2-Customer");
@@ -26,15 +27,14 @@ public class Main {
 		         opt = scan.nextInt();
 		         switch(opt) {
 		         case 1 :EmployeeManagement1 em = new EmployeeManagement1();
-		        	 	 System.out.println(em);break;
+		        	 System.out.println(em);break;
 		         case 2 :Inventory s = new Inventory();
-		        	     System.out.println(s);;break;
+		        	 System.out.println(s);;break;
 		         case 3 :Finance f = new Finance();
-		        	 	 System.out.println(f);break;
-		         case 4 :
-		        	     ad.printinfo();
-		        	     System.out.println("Voucher only available before "+ ad.getdate());
-		 		         System.out.println();break;
+		        	 System.out.println(f);break;
+		         case 4 :ad.printinfo();
+		        	 System.out.println("Voucher only available before "+ ad.getdate());
+		 		 System.out.println();break;
 		         }
 		         if(opt<1 && opt>4) {
 			         System.out.println("\n1.Employee Management System \n2.Inventory System \n3.Finance System \n4.Advertisement and Marketing System");
