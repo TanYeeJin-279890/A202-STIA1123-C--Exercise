@@ -1,0 +1,4 @@
+Year  Month     Total Sales  Total Inventory Cost  Profit    Net Income  
+	
+2020  December  910000.00    10000.0               900000.0  880000.0  
+	
