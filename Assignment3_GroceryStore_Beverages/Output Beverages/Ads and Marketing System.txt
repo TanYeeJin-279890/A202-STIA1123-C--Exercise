@@ -1,0 +1,4 @@
+NO    |ADVERTISEMENT AND MARKETING             		       |DATE STARTED  | DATE END   |REWARDS
+	
+A001  |Purchasement above RM 500.00 get cash voucher RM 20.00  |30/6/2021     | 31/7/2021  |Cash Voucher RM 20.00  
+	
