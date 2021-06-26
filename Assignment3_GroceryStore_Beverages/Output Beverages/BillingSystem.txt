@@ -4,8 +4,8 @@ more than RM 500.00
 =============== Customer Billing System ===============
 Beverages Shop
 Contact us-03-2338113
-Address-Peti Surat 13, Taman Ipoh Jaya
-31470 Ipoh
+NO50-A, Taman Limbongan Permai
+72350 Melaka
 =========================================================================	
 Customer Information
 Firstname:			Rain
