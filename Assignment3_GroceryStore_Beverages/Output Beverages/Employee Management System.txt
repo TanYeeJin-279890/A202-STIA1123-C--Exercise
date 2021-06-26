@@ -1,0 +1,18 @@
+ID    NAME     TEL          AGE  GENDER  POSITION     SALARY  
+	
+E001  Adrian   012-1313822  21   Male    Cashier      2500.00  
+	
+E002  Miya     012-1313812  23   Female  Cashier      2500.00  
+	
+E003  Rosella  013-1717821  23   Female  Cashier      2500.00  
+	 
+E004  Richard  013-1234567  30   Male    Accountants  4000.00  
+	
+E005  Rainy    013-1415621  35   Female  Accountants  4000.00  
+	
+E006  Rio      013-7118384  25   Male    Stocker      2000.00  
+	
+E007  Roy      013-7115154  22   Male    Stocker      2000.00  
+	
+E008  Marie    013-3737211  35   Female  Admin        5000.00  
+	

@@ -1,0 +1,12 @@
+B001  LiptonTea  	Stimulating  Lemon  	650ml  	2.00  500  1000.0  
+	
+B002  Nescafe  		Stimulating  Mocha  	250ml  	1.50  500  750.0  
+	
+B003  Coke  		Refreshing   Original  	250ml  	0.50  500  250.0  
+	
+B004  Tropicana  	Refreshing   Orange  	950ml  	4.50  500  2250.0  
+	
+B005  HL  		Nourshing    Chocolate  1000ml  8.00  500  4000.0  
+	
+B006  Mineral Water  	Refreshing   -  	1000ml  1.00  500  500.0  
+	
