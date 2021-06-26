@@ -1,4 +1,4 @@
-Year  Month  Revenue  COGS  Gross Income  EmployeeSalary  Net Income  
+Year  Month  	Revenue   COGS    Gross Income  EmployeeSalary  Net Income  
 	
-2021  February  40000.00  8750.0  24500.0  31250.0  5750.0  
+2021  February  40000.00  8750.0  24500.0       31250.0         5750.0  
 	
